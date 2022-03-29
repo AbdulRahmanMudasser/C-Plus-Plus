@@ -1,0 +1,23 @@
+/* Write a program that inputs two integers from the user and prints the sum */
+
+#inlcude <iostream>
+using namespace std ;
+
+int main ()
+{
+  int x , y ;
+  int sum ;
+  
+  cout << "Enter Value of x : " ;
+  cin >> x ;
+  
+  cout << "Enter Value of y : " ;
+  cin >> y ;
+  
+  sum = x + y ;
+  
+  cout << "Sum of " << x << " and " << y << " is : " << sum ;
+  
+  retrun 0 ;
+  
+ }
